@@ -567,7 +567,8 @@ img {
   transform: translateY(0);
 }
 
-.portfolio-item:hover .portfolio-cover-text {
+.portfolio-item:hover .portfolio-cover-text,
+.portfolio-item:focus .portfolio-cover-text {
   transform: translateY(0);
 }
 
@@ -636,7 +637,7 @@ img {
 }
 
 .modal {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
